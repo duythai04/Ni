@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 240" fill="none">
+  <!-- Body -->
+  <ellipse cx="100" cy="155" rx="72" ry="75" fill="#FFFFFF" stroke="#172554" stroke-width="4"/>
+  
+  <!-- Calico spots -->
+  <path d="M135 110 Q165 140 160 180 Q130 170 120 140 Z" fill="#F97316"/>
+  <path d="M40 140 Q30 170 55 190 Q65 160 50 135 Z" fill="#334155"/>
+
+  <!-- Left Ear -->
+  <polygon points="45,45 25,100 75,80" fill="#FFFFFF" stroke="#172554" stroke-width="4" stroke-linejoin="round"/>
+  <polygon points="43,55 33,95 68,82" fill="#F472B6"/>
+  <!-- Right Ear -->
+  <polygon points="155,45 125,80 175,100" fill="#FFFFFF" stroke="#172554" stroke-width="4" stroke-linejoin="round"/>
+  <polygon points="157,55 132,82 167,95" fill="#F472B6"/>
+
+  <!-- Head -->
+  <circle cx="100" cy="95" r="62" fill="#FFFFFF" stroke="#172554" stroke-width="4"/>
+
+  <!-- Cheeks -->
+  <ellipse cx="65" cy="112" rx="12" ry="7" fill="#FBCFE8"/>
+  <ellipse cx="135" cy="112" rx="12" ry="7" fill="#FBCFE8"/>
+
+  <!-- Eyes (Happy curved eyes) -->
+  <path d="M60 92 Q72 80 84 92" stroke="#172554" stroke-width="4.5" stroke-linecap="round"/>
+  <path d="M116 92 Q128 80 140 92" stroke="#172554" stroke-width="4.5" stroke-linecap="round"/>
+
+  <!-- Nose & Mouth -->
+  <polygon points="97,102 103,102 100,106" fill="#F472B6"/>
+  <path d="M90 115 Q100 122 100 108 Q100 122 110 115" stroke="#172554" stroke-width="3" stroke-linecap="round" fill="none"/>
+
+  <!-- Whiskers -->
+  <path d="M35 100 L55 103" stroke="#172554" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M32 112 L54 112" stroke="#172554" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M145 103 L165 100" stroke="#172554" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M146 112 L168 112" stroke="#172554" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Red Collar & Golden Bell -->
+  <path d="M50 145 Q100 160 150 145" stroke="#DC2626" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="100" cy="155" r="13" fill="#F59E0B" stroke="#B45309" stroke-width="2.5"/>
+  <line x1="91" y1="155" x2="109" y2="155" stroke="#B45309" stroke-width="2"/>
+  <circle cx="100" cy="160" r="3" fill="#B45309"/>
+
+  <!-- Waving Left Paw -->
+  <g>
+    <path d="M40 140 Q25 105 25 80 Q25 65 42 65 Q58 65 55 90 L60 140 Z" fill="#FFFFFF" stroke="#172554" stroke-width="4"/>
+    <ellipse cx="36" cy="74" rx="7" ry="10" fill="#F472B6"/>
+    <ellipse cx="28" cy="84" rx="4" ry="5" fill="#F472B6"/>
+    <ellipse cx="36" cy="92" rx="4" ry="5" fill="#F472B6"/>
+    <ellipse cx="46" cy="84" rx="4" ry="5" fill="#F472B6"/>
+  </g>
+
+  <!-- Right Paw resting on Koban coin -->
+  <path d="M145 145 Q160 155 160 175 Q160 185 145 185 L135 155 Z" fill="#FFFFFF" stroke="#172554" stroke-width="4"/>
+  <!-- Koban gold coin -->
+  <rect x="85" y="172" width="30" height="45" rx="14" fill="#FBBF24" stroke="#D97706" stroke-width="3"/>
+  <text x="100" y="198" font-size="14" font-weight="bold" fill="#B45309" text-anchor="middle">千万両</text>
+</svg>

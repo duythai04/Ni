@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 400" fill="none">
+  <defs>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FCE7F3" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#FFF9FC" stop-opacity="0.9"/>
+    </linearGradient>
+    <linearGradient id="fujiGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#93C5FD"/>
+      <stop offset="60%" stop-color="#60A5FA"/>
+      <stop offset="100%" stop-color="#3B82F6"/>
+    </linearGradient>
+    <linearGradient id="sunGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F43F5E"/>
+      <stop offset="100%" stop-color="#FB7185"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Sky Background -->
+  <rect width="1000" height="400" rx="24" fill="url(#skyGrad)"/>
+
+  <!-- Rising Sun -->
+  <circle cx="500" cy="190" r="110" fill="url(#sunGrad)" opacity="0.25"/>
+
+  <!-- Mt. Fuji -->
+  <path d="M220 380 Q380 230 460 120 L540 120 Q620 230 780 380 Z" fill="url(#fujiGrad)"/>
+  <!-- Mt. Fuji Snow Cap -->
+  <path d="M460 120 L540 120 Q565 155 580 180 Q560 170 545 185 Q530 160 515 180 Q500 165 485 185 Q470 170 450 185 Q455 155 460 120 Z" fill="#FFFFFF"/>
+
+  <!-- Clouds -->
+  <path d="M150 250 Q180 230 220 240 Q250 220 290 235 Q320 255 300 275 L160 275 Z" fill="#FFFFFF" opacity="0.75"/>
+  <path d="M680 220 Q710 200 750 210 Q780 190 820 205 Q850 225 830 245 L690 245 Z" fill="#FFFFFF" opacity="0.75"/>
+
+  <!-- Five-storied Red Pagoda on Right -->
+  <g transform="translate(770, 110)">
+    <!-- Base -->
+    <rect x="50" y="240" width="40" height="30" fill="#991B1B"/>
+    <!-- Level 1 -->
+    <path d="M25 240 L115 240 L95 210 L45 210 Z" fill="#DC2626"/>
+    <rect x="55" y="210" width="30" height="20" fill="#F87171"/>
+    <!-- Level 2 -->
+    <path d="M30 210 L110 210 L90 180 L50 180 Z" fill="#DC2626"/>
+    <rect x="58" y="180" width="24" height="20" fill="#F87171"/>
+    <!-- Level 3 -->
+    <path d="M35 180 L105 180 L88 150 L52 150 Z" fill="#DC2626"/>
+    <rect x="60" y="150" width="20" height="20" fill="#F87171"/>
+    <!-- Level 4 -->
+    <path d="M40 150 L100 150 L85 125 L55 125 Z" fill="#DC2626"/>
+    <rect x="62" y="125" width="16" height="18" fill="#F87171"/>
+    <!-- Level 5 & Spire -->
+    <path d="M45 125 L95 125 L80 100 L60 100 Z" fill="#DC2626"/>
+    <rect x="68" y="40" width="4" height="60" fill="#F59E0B"/>
+    <circle cx="70" cy="36" r="6" fill="#F59E0B"/>
+  </g>
+
+  <!-- Sakura Branches & Blossoms Hanging from Top -->
+  <path d="M0 0 Q180 80 320 20 Q420 70 540 10" stroke="#78350F" stroke-width="6" stroke-linecap="round"/>
+  <path d="M80 35 Q140 100 190 70" stroke="#78350F" stroke-width="4" stroke-linecap="round"/>
+  <path d="M800 0 Q880 70 1000 30" stroke="#78350F" stroke-width="6" stroke-linecap="round"/>
+  <path d="M870 35 Q930 90 980 60" stroke="#78350F" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Sakura Petals -->
+  <circle cx="95" cy="50" r="14" fill="#F472B6" opacity="0.9"/>
+  <circle cx="160" cy="45" r="16" fill="#F9A8D4" opacity="0.85"/>
+  <circle cx="230" cy="30" r="15" fill="#F472B6" opacity="0.9"/>
+  <circle cx="300" cy="25" r="14" fill="#FBCFE8" opacity="0.9"/>
+  <circle cx="140" cy="90" r="13" fill="#F472B6" opacity="0.9"/>
+  <circle cx="190" cy="75" r="12" fill="#F9A8D4" opacity="0.85"/>
+
+  <circle cx="850" cy="30" r="15" fill="#F472B6" opacity="0.9"/>
+  <circle cx="920" cy="40" r="16" fill="#F9A8D4" opacity="0.85"/>
+  <circle cx="960" cy="70" r="13" fill="#F472B6" opacity="0.9"/>
+  <circle cx="890" cy="80" r="14" fill="#FBCFE8" opacity="0.9"/>
+
+  <!-- Falling Petals in Wind -->
+  <path d="M260 160 Q270 150 280 165 Q270 175 260 160 Z" fill="#F472B6" opacity="0.75"/>
+  <path d="M340 210 Q350 200 360 215 Q350 225 340 210 Z" fill="#F472B6" opacity="0.6"/>
+  <path d="M720 180 Q730 170 740 185 Q730 195 720 180 Z" fill="#F472B6" opacity="0.7"/>
+  <path d="M640 260 Q650 250 660 265 Q650 275 640 260 Z" fill="#F472B6" opacity="0.6"/>
+</svg>

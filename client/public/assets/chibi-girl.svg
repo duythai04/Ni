@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 260" fill="none">
+  <!-- Hair back -->
+  <ellipse cx="120" cy="115" rx="72" ry="70" fill="#312E81"/>
+
+  <!-- Body / Kimono -->
+  <path d="M75 160 L50 240 L190 240 L165 160 Z" fill="#FCE7F3" stroke="#EC4899" stroke-width="3"/>
+  <!-- Kimono collar cross -->
+  <path d="M100 160 L120 195 L140 160" stroke="#EC4899" stroke-width="4" fill="none"/>
+  <!-- Obi belt -->
+  <rect x="75" y="195" width="90" height="24" rx="4" fill="#EC4899"/>
+  <rect x="105" y="193" width="30" height="28" rx="2" fill="#DB2777"/>
+
+  <!-- Arms holding the sign -->
+  <ellipse cx="65" cy="180" rx="14" ry="25" fill="#FCE7F3" stroke="#EC4899" stroke-width="3" transform="rotate(-20 65 180)"/>
+  <ellipse cx="175" cy="180" rx="14" ry="25" fill="#FCE7F3" stroke="#EC4899" stroke-width="3" transform="rotate(20 175 180)"/>
+
+  <!-- Chibi Sign: "あいう" -->
+  <rect x="70" y="180" width="100" height="60" rx="8" fill="#FFFFFF" stroke="#DB2777" stroke-width="3.5" filter="drop-shadow(0 4px 6px rgba(0,0,0,0.08))"/>
+  <text x="120" y="218" font-family="'Noto Sans JP', sans-serif" font-weight="900" font-size="28" fill="#EC4899" text-anchor="middle">あいう</text>
+
+  <!-- Little hands on sign -->
+  <circle cx="75" cy="200" r="10" fill="#FFEDD5" stroke="#FDBA74" stroke-width="2"/>
+  <circle cx="165" cy="200" r="10" fill="#FFEDD5" stroke="#FDBA74" stroke-width="2"/>
+
+  <!-- Face -->
+  <ellipse cx="120" cy="110" rx="55" ry="50" fill="#FFFBEB"/>
+
+  <!-- Bangs / Front hair -->
+  <path d="M68 95 C68 60 172 60 172 95 C160 85 145 92 135 85 C125 95 115 85 105 92 C95 85 80 92 68 95 Z" fill="#312E81"/>
+  <!-- Side hair strands -->
+  <path d="M65 95 C60 130 55 155 60 165 C68 150 72 130 75 105 Z" fill="#312E81"/>
+  <path d="M175 95 C180 130 185 155 180 165 C172 150 168 130 165 105 Z" fill="#312E81"/>
+
+  <!-- Sakura Hair Ornament on right ear -->
+  <g transform="translate(162, 70)">
+    <circle cx="0" cy="0" r="10" fill="#EC4899"/>
+    <circle cx="-7" cy="-7" r="7" fill="#F472B6"/>
+    <circle cx="7" cy="-7" r="7" fill="#F472B6"/>
+    <circle cx="-7" cy="7" r="7" fill="#F472B6"/>
+    <circle cx="7" cy="7" r="7" fill="#F472B6"/>
+    <circle cx="0" cy="0" r="4" fill="#FBBF24"/>
+  </g>
+
+  <!-- Cheeks (Blushing pink) -->
+  <ellipse cx="90" cy="122" rx="10" ry="6" fill="#F472B6" opacity="0.6"/>
+  <ellipse cx="150" cy="122" rx="10" ry="6" fill="#F472B6" opacity="0.6"/>
+
+  <!-- Eyes (Big shiny anime eyes) -->
+  <g>
+    <!-- Left Eye -->
+    <ellipse cx="95" cy="110" rx="10" ry="12" fill="#1E1B4B"/>
+    <circle cx="93" cy="106" r="4" fill="#FFFFFF"/>
+    <circle cx="98" cy="114" r="2" fill="#FFFFFF"/>
+    <path d="M84 100 Q95 95 106 100" stroke="#1E1B4B" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- Right Eye -->
+    <ellipse cx="145" cy="110" rx="10" ry="12" fill="#1E1B4B"/>
+    <circle cx="143" cy="106" r="4" fill="#FFFFFF"/>
+    <circle cx="148" cy="114" r="2" fill="#FFFFFF"/>
+    <path d="M134 100 Q145 95 156 100" stroke="#1E1B4B" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- Cute Smile -->
+  <path d="M114 125 Q120 130 126 125" stroke="#E11D48" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+</svg>

@@ -1,0 +1,2237 @@
+{
+  "schemaVersion": "1.0.0",
+  "course": {
+    "id": "japanese-n5-beginner",
+    "title": "Tiếng Nhật N5 cho người mới bắt đầu",
+    "language": "ja",
+    "instructionLanguage": "vi",
+    "totalDaysPlanned": 90,
+    "includedDays": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "description": "Năm ngày đầu học Hiragana, từ vựng và giao tiếp cơ bản.",
+    "lessonOrder": [
+      "jlpt-n5-day-01",
+      "jlpt-n5-day-02",
+      "jlpt-n5-day-03",
+      "jlpt-n5-day-04",
+      "jlpt-n5-day-05"
+    ]
+  },
+  "lessons": [
+    {
+      "id": "jlpt-n5-day-01",
+      "day": 1,
+      "slug": "ngay-01",
+      "title": "Nguyên âm Hiragana và lời chào",
+      "level": "N5",
+      "estimatedMinutes": 60,
+      "prerequisiteLessonId": null,
+      "learningObjectives": [
+        "Nhận diện và đọc 5 nguyên âm",
+        "Viết đúng 5 nguyên âm",
+        "Nói được 3 lời chào cơ bản"
+      ],
+      "sections": [
+        {
+          "id": "alphabet",
+          "type": "alphabet",
+          "title": "Bảng chữ cái",
+          "groups": [
+            "Nguyên âm"
+          ],
+          "items": [
+            {
+              "character": "あ",
+              "romaji": "a",
+              "pronunciationNote": "",
+              "writingPracticeCount": 10
+            },
+            {
+              "character": "い",
+              "romaji": "i",
+              "pronunciationNote": "",
+              "writingPracticeCount": 10
+            },
+            {
+              "character": "う",
+              "romaji": "u",
+              "pronunciationNote": "",
+              "writingPracticeCount": 10
+            },
+            {
+              "character": "え",
+              "romaji": "e",
+              "pronunciationNote": "",
+              "writingPracticeCount": 10
+            },
+            {
+              "character": "お",
+              "romaji": "o",
+              "pronunciationNote": "",
+              "writingPracticeCount": 10
+            }
+          ]
+        },
+        {
+          "id": "vocabulary",
+          "type": "vocabulary",
+          "title": "Từ vựng",
+          "items": [
+            {
+              "japanese": "あい",
+              "romaji": "ai",
+              "meaningVi": "Tình yêu",
+              "isPreview": false
+            },
+            {
+              "japanese": "あお",
+              "romaji": "ao",
+              "meaningVi": "Màu xanh dương",
+              "isPreview": false
+            },
+            {
+              "japanese": "いえ",
+              "romaji": "ie",
+              "meaningVi": "Ngôi nhà",
+              "isPreview": false
+            },
+            {
+              "japanese": "うえ",
+              "romaji": "ue",
+              "meaningVi": "Phía trên",
+              "isPreview": false
+            },
+            {
+              "japanese": "いい",
+              "romaji": "ii",
+              "meaningVi": "Tốt",
+              "isPreview": false
+            },
+            {
+              "japanese": "え",
+              "romaji": "e",
+              "meaningVi": "Bức tranh",
+              "isPreview": false
+            }
+          ]
+        },
+        {
+          "id": "conversation",
+          "type": "conversation",
+          "title": "Giao tiếp",
+          "items": [
+            {
+              "japanese": "おはようございます。",
+              "romaji": "Ohayō gozaimasu.",
+              "translationVi": "Chào buổi sáng (lịch sự).",
+              "explanationVi": ""
+            },
+            {
+              "japanese": "こんにちは。",
+              "romaji": "Konnichiwa.",
+              "translationVi": "Xin chào (ban ngày).",
+              "explanationVi": "は trong lời chào này đọc là wa."
+            },
+            {
+              "japanese": "こんばんは。",
+              "romaji": "Konbanwa.",
+              "translationVi": "Chào buổi tối.",
+              "explanationVi": "は trong lời chào này đọc là wa."
+            }
+          ]
+        },
+        {
+          "id": "practice",
+          "type": "practice",
+          "title": "Luyện tập",
+          "tasks": [
+            {
+              "id": "write",
+              "type": "handwriting",
+              "instructionVi": "Viết mỗi chữ mới 10 lần.",
+              "targetCharacterCount": 5
+            },
+            {
+              "id": "read",
+              "type": "reading",
+              "instructionVi": "Đọc các chữ mới và từ vựng không nhìn Romaji."
+            },
+            {
+              "id": "speak",
+              "type": "speaking",
+              "instructionVi": "Đọc to các mẫu câu giao tiếp ít nhất 3 lần."
+            },
+            {
+              "id": "review",
+              "type": "review",
+              "instructionVi": "Ôn lại bảng chữ cái và từ vựng các ngày trước."
+            }
+          ]
+        }
+      ],
+      "assessment": {
+        "id": "day-1-quiz",
+        "title": "Kiểm tra ngày 1",
+        "questionCount": 14,
+        "passingScore": 8,
+        "maxScore": 14,
+        "questions": [
+          {
+            "id": "d1-q01",
+            "type": "multiple_choice",
+            "prompt": "Chữ あ đọc là gì?",
+            "options": [
+              "a",
+              "ka",
+              "shi",
+              "ta"
+            ],
+            "correctAnswer": "a",
+            "explanation": "あ đọc là a."
+          },
+          {
+            "id": "d1-q02",
+            "type": "multiple_choice",
+            "prompt": "Chữ い đọc là gì?",
+            "options": [
+              "i",
+              "ka",
+              "shi",
+              "ta"
+            ],
+            "correctAnswer": "i",
+            "explanation": "い đọc là i."
+          },
+          {
+            "id": "d1-q03",
+            "type": "multiple_choice",
+            "prompt": "Chữ う đọc là gì?",
+            "options": [
+              "u",
+              "ka",
+              "shi",
+              "ta"
+            ],
+            "correctAnswer": "u",
+            "explanation": "う đọc là u."
+          },
+          {
+            "id": "d1-q04",
+            "type": "multiple_choice",
+            "prompt": "Chữ え đọc là gì?",
+            "options": [
+              "e",
+              "ka",
+              "shi",
+              "ta"
+            ],
+            "correctAnswer": "e",
+            "explanation": "え đọc là e."
+          },
+          {
+            "id": "d1-q05",
+            "type": "multiple_choice",
+            "prompt": "Chữ お đọc là gì?",
+            "options": [
+              "o",
+              "ka",
+              "shi",
+              "ta"
+            ],
+            "correctAnswer": "o",
+            "explanation": "お đọc là o."
+          },
+          {
+            "id": "d1-q06",
+            "type": "multiple_choice",
+            "prompt": "あい có nghĩa là gì?",
+            "options": [
+              "Tình yêu",
+              "Màu xanh dương",
+              "Ngôi nhà",
+              "Phía trên"
+            ],
+            "correctAnswer": "Tình yêu",
+            "explanation": "あい (ai) nghĩa là Tình yêu."
+          },
+          {
+            "id": "d1-q07",
+            "type": "multiple_choice",
+            "prompt": "あお có nghĩa là gì?",
+            "options": [
+              "Màu xanh dương",
+              "Tình yêu",
+              "Ngôi nhà",
+              "Phía trên"
+            ],
+            "correctAnswer": "Màu xanh dương",
+            "explanation": "あお (ao) nghĩa là Màu xanh dương."
+          },
+          {
+            "id": "d1-q08",
+            "type": "multiple_choice",
+            "prompt": "いえ có nghĩa là gì?",
+            "options": [
+              "Ngôi nhà",
+              "Tình yêu",
+              "Màu xanh dương",
+              "Phía trên"
+            ],
+            "correctAnswer": "Ngôi nhà",
+            "explanation": "いえ (ie) nghĩa là Ngôi nhà."
+          },
+          {
+            "id": "d1-q09",
+            "type": "multiple_choice",
+            "prompt": "うえ có nghĩa là gì?",
+            "options": [
+              "Phía trên",
+              "Tình yêu",
+              "Màu xanh dương",
+              "Ngôi nhà"
+            ],
+            "correctAnswer": "Phía trên",
+            "explanation": "うえ (ue) nghĩa là Phía trên."
+          },
+          {
+            "id": "d1-q10",
+            "type": "multiple_choice",
+            "prompt": "Câu japanese có nghĩa là gì?",
+            "options": [
+              "translationVi",
+              "Tôi là học sinh.",
+              "Bạn khỏe không?",
+              "Đây là nhà ga."
+            ],
+            "correctAnswer": "translationVi",
+            "explanation": "explanationVi"
+          },
+          {
+            "id": "d1-q11",
+            "type": "multiple_choice",
+            "prompt": "Câu japanese có nghĩa là gì?",
+            "options": [
+              "translationVi",
+              "Tôi là học sinh.",
+              "Bạn khỏe không?",
+              "Đây là nhà ga."
+            ],
+            "correctAnswer": "translationVi",
+            "explanation": "explanationVi"
+          },
+          {
+            "id": "d1-q12",
+            "type": "multiple_choice",
+            "prompt": "あい đọc như thế nào?",
+            "options": [
+              "ai",
+              "ao",
+              "ie",
+              "ii"
+            ],
+            "correctAnswer": "ai",
+            "explanation": "あい đọc ai."
+          },
+          {
+            "id": "d1-q13",
+            "type": "multiple_choice",
+            "prompt": "あお đọc như thế nào?",
+            "options": [
+              "ao",
+              "ai",
+              "ue",
+              "e"
+            ],
+            "correctAnswer": "ao",
+            "explanation": "あお đọc ao."
+          },
+          {
+            "id": "d1-q14",
+            "type": "multiple_choice",
+            "prompt": "いえ đọc như thế nào?",
+            "options": [
+              "ie",
+              "ai",
+              "ue",
+              "e"
+            ],
+            "correctAnswer": "ie",
+            "explanation": "いえ đọc ie."
+          }
+        ]
+      },
+      "completionRules": {
+        "requireAssessmentPassed": true,
+        "requireAllPracticeTasks": false,
+        "unlockNextLessonOnPass": true
+      },
+      "previewNotes": [
+        "Các lời chào có chữ chưa học, ưu tiên ghi nhớ cách nói."
+      ]
+    },
+    {
+      "id": "jlpt-n5-day-02",
+      "day": 2,
+      "slug": "ngay-02",
+      "title": "Hiragana hàng K và S",
+      "level": "N5",
+      "estimatedMinutes": 75,
+      "prerequisiteLessonId": "jlpt-n5-day-01",
+      "learningObjectives": [
+        "Đọc và viết 10 chữ hàng K và S",
+        "Nhận ra し đọc là shi",
+        "Đọc 10 từ vựng",
+        "Giới thiệu tên ở mức cơ bản"
+      ],
+      "sections": [
+        {
+          "id": "alphabet",
+          "type": "alphabet",
+          "title": "Bảng chữ cái",
+          "groups": [
+            "Hàng K",
+            "Hàng S"
+          ],
+          "items": [
+            {
+              "character": "か",
+              "romaji": "ka",
+              "pronunciationNote": "",
+              "writingPracticeCount": 10
+            },
+            {
+              "character": "き",
+              "romaji": "ki",
+              "pronunciationNote": "",
+              "writingPracticeCount": 10
+            },
+            {
+              "character": "く",
+              "romaji": "ku",
+              "pronunciationNote": "",
+              "writingPracticeCount": 10
+            },
+            {
+              "character": "け",
+              "romaji": "ke",
+              "pronunciationNote": "",
+              "writingPracticeCount": 10
+            },
+            {
+              "character": "こ",
+              "romaji": "ko",
+              "pronunciationNote": "",
+              "writingPracticeCount": 10
+            },
+            {
+              "character": "さ",
+              "romaji": "sa",
+              "pronunciationNote": "",
+              "writingPracticeCount": 10
+            },
+            {
+              "character": "し",
+              "romaji": "shi",
+              "pronunciationNote": "Đọc shi, không phải si.",
+              "writingPracticeCount": 10
+            },
+            {
+              "character": "す",
+              "romaji": "su",
+              "pronunciationNote": "Âm u có thể rất nhẹ trong một số ngữ cảnh.",
+              "writingPracticeCount": 10
+            },
+            {
+              "character": "せ",
+              "romaji": "se",
+              "pronunciationNote": "",
+              "writingPracticeCount": 10
+            },
+            {
+              "character": "そ",
+              "romaji": "so",
+              "pronunciationNote": "",
+              "writingPracticeCount": 10
+            }
+          ]
+        },
+        {
+          "id": "vocabulary",
+          "type": "vocabulary",
+          "title": "Từ vựng",
+          "items": [
+            {
+              "japanese": "かさ",
+              "romaji": "kasa",
+              "meaningVi": "Cái ô",
+              "isPreview": false
+            },
+            {
+              "japanese": "すし",
+              "romaji": "sushi",
+              "meaningVi": "Sushi",
+              "isPreview": false
+            },
+            {
+              "japanese": "かき",
+              "romaji": "kaki",
+              "meaningVi": "Quả hồng",
+              "isPreview": false
+            },
+            {
+              "japanese": "かお",
+              "romaji": "kao",
+              "meaningVi": "Khuôn mặt",
+              "isPreview": false
+            },
+            {
+              "japanese": "あし",
+              "romaji": "ashi",
+              "meaningVi": "Chân",
+              "isPreview": false
+            },
+            {
+              "japanese": "いす",
+              "romaji": "isu",
+              "meaningVi": "Ghế",
+              "isPreview": false
+            },
+            {
+              "japanese": "えき",
+              "romaji": "eki",
+              "meaningVi": "Nhà ga",
+              "isPreview": false
+            },
+            {
+              "japanese": "そこ",
+              "romaji": "soko",
+              "meaningVi": "Chỗ đó",
+              "isPreview": false
+            },
+            {
+              "japanese": "すき",
+              "romaji": "suki",
+              "meaningVi": "Thích",
+              "isPreview": false
+            },
+            {
+              "japanese": "せかい",
+              "romaji": "sekai",
+              "meaningVi": "Thế giới",
+              "isPreview": false
+            }
+          ]
+        },
+        {
+          "id": "conversation",
+          "type": "conversation",
+          "title": "Giao tiếp",
+          "items": [
+            {
+              "japanese": "おなまえは なんですか。",
+              "romaji": "Onamae wa nan desu ka?",
+              "translationVi": "Bạn tên là gì?",
+              "explanationVi": ""
+            },
+            {
+              "japanese": "わたしは タイです。",
+              "romaji": "Watashi wa Tai desu.",
+              "translationVi": "Tôi là Thái.",
+              "explanationVi": "Thay タイ bằng tên người học."
+            },
+            {
+              "japanese": "よろしくおねがいします。",
+              "romaji": "Yoroshiku onegaishimasu.",
+              "translationVi": "Rất mong được giúp đỡ / Rất vui được làm quen.",
+              "explanationVi": ""
+            }
+          ]
+        },
+        {
+          "id": "practice",
+          "type": "practice",
+          "title": "Luyện tập",
+          "tasks": [
+            {
+              "id": "write",
+              "type": "handwriting",
+              "instructionVi": "Viết mỗi chữ mới 10 lần.",
+              "targetCharacterCount": 10
+            },
+            {
+              "id": "read",
+              "type": "reading",
+              "instructionVi": "Đọc các chữ mới và từ vựng không nhìn Romaji."
+            },
+            {
+              "id": "speak",
+              "type": "speaking",
+              "instructionVi": "Đọc to các mẫu câu giao tiếp ít nhất 3 lần."
+            },
+            {
+              "id": "review",
+              "type": "review",
+              "instructionVi": "Ôn lại bảng chữ cái và từ vựng các ngày trước."
+            }
+          ]
+        }
+      ],
+      "assessment": {
+        "id": "day-2-quiz",
+        "title": "Kiểm tra ngày 2",
+        "questionCount": 16,
+        "passingScore": 12,
+        "maxScore": 16,
+        "questions": [
+          {
+            "id": "d2-q01",
+            "type": "multiple_choice",
+            "prompt": "Chữ か đọc là gì?",
+            "options": [
+              "ka",
+              "shi",
+              "ta",
+              "na"
+            ],
+            "correctAnswer": "ka",
+            "explanation": "か đọc là ka."
+          },
+          {
+            "id": "d2-q02",
+            "type": "multiple_choice",
+            "prompt": "Chữ き đọc là gì?",
+            "options": [
+              "ki",
+              "ka",
+              "shi",
+              "ta"
+            ],
+            "correctAnswer": "ki",
+            "explanation": "き đọc là ki."
+          },
+          {
+            "id": "d2-q03",
+            "type": "multiple_choice",
+            "prompt": "Chữ く đọc là gì?",
+            "options": [
+              "ku",
+              "ka",
+              "shi",
+              "ta"
+            ],
+            "correctAnswer": "ku",
+            "explanation": "く đọc là ku."
+          },
+          {
+            "id": "d2-q04",
+            "type": "multiple_choice",
+            "prompt": "Chữ け đọc là gì?",
+            "options": [
+              "ke",
+              "ka",
+              "shi",
+              "ta"
+            ],
+            "correctAnswer": "ke",
+            "explanation": "け đọc là ke."
+          },
+          {
+            "id": "d2-q05",
+            "type": "multiple_choice",
+            "prompt": "Chữ こ đọc là gì?",
+            "options": [
+              "ko",
+              "ka",
+              "shi",
+              "ta"
+            ],
+            "correctAnswer": "ko",
+            "explanation": "こ đọc là ko."
+          },
+          {
+            "id": "d2-q06",
+            "type": "multiple_choice",
+            "prompt": "Chữ さ đọc là gì?",
+            "options": [
+              "sa",
+              "ka",
+              "shi",
+              "ta"
+            ],
+            "correctAnswer": "sa",
+            "explanation": "さ đọc là sa."
+          },
+          {
+            "id": "d2-q07",
+            "type": "multiple_choice",
+            "prompt": "Chữ し đọc là gì?",
+            "options": [
+              "shi",
+              "ka",
+              "ta",
+              "na"
+            ],
+            "correctAnswer": "shi",
+            "explanation": "し đọc là shi."
+          },
+          {
+            "id": "d2-q08",
+            "type": "multiple_choice",
+            "prompt": "Chữ す đọc là gì?",
+            "options": [
+              "su",
+              "ka",
+              "shi",
+              "ta"
+            ],
+            "correctAnswer": "su",
+            "explanation": "す đọc là su."
+          },
+          {
+            "id": "d2-q09",
+            "type": "multiple_choice",
+            "prompt": "Chữ せ đọc là gì?",
+            "options": [
+              "se",
+              "ka",
+              "shi",
+              "ta"
+            ],
+            "correctAnswer": "se",
+            "explanation": "せ đọc là se."
+          },
+          {
+            "id": "d2-q10",
+            "type": "multiple_choice",
+            "prompt": "Chữ そ đọc là gì?",
+            "options": [
+              "so",
+              "ka",
+              "shi",
+              "ta"
+            ],
+            "correctAnswer": "so",
+            "explanation": "そ đọc là so."
+          },
+          {
+            "id": "d2-q11",
+            "type": "multiple_choice",
+            "prompt": "かさ có nghĩa là gì?",
+            "options": [
+              "Cái ô",
+              "Sushi",
+              "Quả hồng",
+              "Khuôn mặt"
+            ],
+            "correctAnswer": "Cái ô",
+            "explanation": "かさ (kasa) nghĩa là Cái ô."
+          },
+          {
+            "id": "d2-q12",
+            "type": "multiple_choice",
+            "prompt": "すし có nghĩa là gì?",
+            "options": [
+              "Sushi",
+              "Cái ô",
+              "Quả hồng",
+              "Khuôn mặt"
+            ],
+            "correctAnswer": "Sushi",
+            "explanation": "すし (sushi) nghĩa là Sushi."
+          },
+          {
+            "id": "d2-q13",
+            "type": "multiple_choice",
+            "prompt": "かき có nghĩa là gì?",
+            "options": [
+              "Quả hồng",
+              "Cái ô",
+              "Sushi",
+              "Khuôn mặt"
+            ],
+            "correctAnswer": "Quả hồng",
+            "explanation": "かき (kaki) nghĩa là Quả hồng."
+          },
+          {
+            "id": "d2-q14",
+            "type": "multiple_choice",
+            "prompt": "かお có nghĩa là gì?",
+            "options": [
+              "Khuôn mặt",
+              "Cái ô",
+              "Sushi",
+              "Quả hồng"
+            ],
+            "correctAnswer": "Khuôn mặt",
+            "explanation": "かお (kao) nghĩa là Khuôn mặt."
+          },
+          {
+            "id": "d2-q15",
+            "type": "multiple_choice",
+            "prompt": "Câu japanese có nghĩa là gì?",
+            "options": [
+              "translationVi",
+              "Tôi là học sinh.",
+              "Bạn khỏe không?",
+              "Đây là nhà ga."
+            ],
+            "correctAnswer": "translationVi",
+            "explanation": "explanationVi"
+          },
+          {
+            "id": "d2-q16",
+            "type": "multiple_choice",
+            "prompt": "Câu japanese có nghĩa là gì?",
+            "options": [
+              "translationVi",
+              "Tôi là học sinh.",
+              "Bạn khỏe không?",
+              "Đây là nhà ga."
+            ],
+            "correctAnswer": "translationVi",
+            "explanation": "explanationVi"
+          }
+        ]
+      },
+      "completionRules": {
+        "requireAssessmentPassed": true,
+        "requireAllPracticeTasks": false,
+        "unlockNextLessonOnPass": true
+      },
+      "previewNotes": [
+        "Các mẫu giao tiếp chứa chữ chưa học, học như cụm cố định."
+      ]
+    },
+    {
+      "id": "jlpt-n5-day-03",
+      "day": 3,
+      "slug": "ngay-03",
+      "title": "Hiragana hàng T và N",
+      "level": "N5",
+      "estimatedMinutes": 75,
+      "prerequisiteLessonId": "jlpt-n5-day-02",
+      "learningObjectives": [
+        "Nhận diện 10 chữ hàng T và N",
+        "Phát âm chính xác ち và つ",
+        "Đọc 12 từ vựng",
+        "Hỏi tên đồ vật và vị trí"
+      ],
+      "sections": [
+        {
+          "id": "alphabet",
+          "type": "alphabet",
+          "title": "Bảng chữ cái",
+          "groups": [
+            "Hàng T",
+            "Hàng N"
+          ],
+          "items": [
+            {
+              "character": "た",
+              "romaji": "ta",
+              "pronunciationNote": "",
+              "writingPracticeCount": 10
+            },
+            {
+              "character": "ち",
+              "romaji": "chi",
+              "pronunciationNote": "Đọc chi, không phải ti.",
+              "writingPracticeCount": 10
+            },
+            {
+              "character": "つ",
+              "romaji": "tsu",
+              "pronunciationNote": "Đọc tsu thành một âm tiết.",
+              "writingPracticeCount": 10
+            },
+            {
+              "character": "て",
+              "romaji": "te",
+              "pronunciationNote": "",
+              "writingPracticeCount": 10
+            },
+            {
+              "character": "と",
+              "romaji": "to",
+              "pronunciationNote": "",
+              "writingPracticeCount": 10
+            },
+            {
+              "character": "な",
+              "romaji": "na",
+              "pronunciationNote": "",
+              "writingPracticeCount": 10
+            },
+            {
+              "character": "に",
+              "romaji": "ni",
+              "pronunciationNote": "",
+              "writingPracticeCount": 10
+            },
+            {
+              "character": "ぬ",
+              "romaji": "nu",
+              "pronunciationNote": "Phân biệt ぬ với ね.",
+              "writingPracticeCount": 10
+            },
+            {
+              "character": "ね",
+              "romaji": "ne",
+              "pronunciationNote": "Phân biệt ね với ぬ.",
+              "writingPracticeCount": 10
+            },
+            {
+              "character": "の",
+              "romaji": "no",
+              "pronunciationNote": "",
+              "writingPracticeCount": 10
+            }
+          ]
+        },
+        {
+          "id": "vocabulary",
+          "type": "vocabulary",
+          "title": "Từ vựng",
+          "items": [
+            {
+              "japanese": "なつ",
+              "romaji": "natsu",
+              "meaningVi": "Mùa hè",
+              "isPreview": false
+            },
+            {
+              "japanese": "ねこ",
+              "romaji": "neko",
+              "meaningVi": "Con mèo",
+              "isPreview": false
+            },
+            {
+              "japanese": "いぬ",
+              "romaji": "inu",
+              "meaningVi": "Con chó",
+              "isPreview": false
+            },
+            {
+              "japanese": "くつ",
+              "romaji": "kutsu",
+              "meaningVi": "Giày",
+              "isPreview": false
+            },
+            {
+              "japanese": "つき",
+              "romaji": "tsuki",
+              "meaningVi": "Mặt trăng",
+              "isPreview": false
+            },
+            {
+              "japanese": "たこ",
+              "romaji": "tako",
+              "meaningVi": "Bạch tuộc",
+              "isPreview": false
+            },
+            {
+              "japanese": "ちかてつ",
+              "romaji": "chikatetsu",
+              "meaningVi": "Tàu điện ngầm",
+              "isPreview": false
+            },
+            {
+              "japanese": "とけい",
+              "romaji": "tokei",
+              "meaningVi": "Đồng hồ",
+              "isPreview": false
+            },
+            {
+              "japanese": "なに",
+              "romaji": "nani",
+              "meaningVi": "Cái gì",
+              "isPreview": false
+            },
+            {
+              "japanese": "ここ",
+              "romaji": "koko",
+              "meaningVi": "Ở đây",
+              "isPreview": false
+            },
+            {
+              "japanese": "そこ",
+              "romaji": "soko",
+              "meaningVi": "Ở đó",
+              "isPreview": false
+            },
+            {
+              "japanese": "あそこ",
+              "romaji": "asoko",
+              "meaningVi": "Ở đằng kia",
+              "isPreview": false
+            }
+          ]
+        },
+        {
+          "id": "conversation",
+          "type": "conversation",
+          "title": "Giao tiếp",
+          "items": [
+            {
+              "japanese": "これは なんですか。",
+              "romaji": "Kore wa nan desu ka?",
+              "translationVi": "Đây là cái gì?",
+              "explanationVi": "これ: cái này; なん: cái gì; か: dấu hiệu câu hỏi."
+            },
+            {
+              "japanese": "これは とけいです。",
+              "romaji": "Kore wa tokei desu.",
+              "translationVi": "Đây là đồng hồ.",
+              "explanationVi": ""
+            },
+            {
+              "japanese": "ねこは どこですか。",
+              "romaji": "Neko wa doko desu ka?",
+              "translationVi": "Con mèo ở đâu?",
+              "explanationVi": ""
+            },
+            {
+              "japanese": "ねこは そこです。",
+              "romaji": "Neko wa soko desu.",
+              "translationVi": "Con mèo ở chỗ đó.",
+              "explanationVi": ""
+            }
+          ]
+        },
+        {
+          "id": "practice",
+          "type": "practice",
+          "title": "Luyện tập",
+          "tasks": [
+            {
+              "id": "write",
+              "type": "handwriting",
+              "instructionVi": "Viết mỗi chữ mới 10 lần.",
+              "targetCharacterCount": 10
+            },
+            {
+              "id": "read",
+              "type": "reading",
+              "instructionVi": "Đọc các chữ mới và từ vựng không nhìn Romaji."
+            },
+            {
+              "id": "speak",
+              "type": "speaking",
+              "instructionVi": "Đọc to các mẫu câu giao tiếp ít nhất 3 lần."
+            },
+            {
+              "id": "review",
+              "type": "review",
+              "instructionVi": "Ôn lại bảng chữ cái và từ vựng các ngày trước."
+            }
+          ]
+        }
+      ],
+      "assessment": {
+        "id": "day-3-quiz",
+        "title": "Kiểm tra ngày 3",
+        "questionCount": 16,
+        "passingScore": 12,
+        "maxScore": 16,
+        "questions": [
+          {
+            "id": "d3-q01",
+            "type": "multiple_choice",
+            "prompt": "Chữ た đọc là gì?",
+            "options": [
+              "ta",
+              "ka",
+              "shi",
+              "na"
+            ],
+            "correctAnswer": "ta",
+            "explanation": "た đọc là ta."
+          },
+          {
+            "id": "d3-q02",
+            "type": "multiple_choice",
+            "prompt": "Chữ ち đọc là gì?",
+            "options": [
+              "chi",
+              "ka",
+              "shi",
+              "ta"
+            ],
+            "correctAnswer": "chi",
+            "explanation": "ち đọc là chi."
+          },
+          {
+            "id": "d3-q03",
+            "type": "multiple_choice",
+            "prompt": "Chữ つ đọc là gì?",
+            "options": [
+              "tsu",
+              "ka",
+              "shi",
+              "ta"
+            ],
+            "correctAnswer": "tsu",
+            "explanation": "つ đọc là tsu."
+          },
+          {
+            "id": "d3-q04",
+            "type": "multiple_choice",
+            "prompt": "Chữ て đọc là gì?",
+            "options": [
+              "te",
+              "ka",
+              "shi",
+              "ta"
+            ],
+            "correctAnswer": "te",
+            "explanation": "て đọc là te."
+          },
+          {
+            "id": "d3-q05",
+            "type": "multiple_choice",
+            "prompt": "Chữ と đọc là gì?",
+            "options": [
+              "to",
+              "ka",
+              "shi",
+              "ta"
+            ],
+            "correctAnswer": "to",
+            "explanation": "と đọc là to."
+          },
+          {
+            "id": "d3-q06",
+            "type": "multiple_choice",
+            "prompt": "Chữ な đọc là gì?",
+            "options": [
+              "na",
+              "ka",
+              "shi",
+              "ta"
+            ],
+            "correctAnswer": "na",
+            "explanation": "な đọc là na."
+          },
+          {
+            "id": "d3-q07",
+            "type": "multiple_choice",
+            "prompt": "Chữ に đọc là gì?",
+            "options": [
+              "ni",
+              "ka",
+              "shi",
+              "ta"
+            ],
+            "correctAnswer": "ni",
+            "explanation": "に đọc là ni."
+          },
+          {
+            "id": "d3-q08",
+            "type": "multiple_choice",
+            "prompt": "Chữ ぬ đọc là gì?",
+            "options": [
+              "nu",
+              "ka",
+              "shi",
+              "ta"
+            ],
+            "correctAnswer": "nu",
+            "explanation": "ぬ đọc là nu."
+          },
+          {
+            "id": "d3-q09",
+            "type": "multiple_choice",
+            "prompt": "Chữ ね đọc là gì?",
+            "options": [
+              "ne",
+              "ka",
+              "shi",
+              "ta"
+            ],
+            "correctAnswer": "ne",
+            "explanation": "ね đọc là ne."
+          },
+          {
+            "id": "d3-q10",
+            "type": "multiple_choice",
+            "prompt": "Chữ の đọc là gì?",
+            "options": [
+              "no",
+              "ka",
+              "shi",
+              "ta"
+            ],
+            "correctAnswer": "no",
+            "explanation": "の đọc là no."
+          },
+          {
+            "id": "d3-q11",
+            "type": "multiple_choice",
+            "prompt": "なつ có nghĩa là gì?",
+            "options": [
+              "Mùa hè",
+              "Con mèo",
+              "Con chó",
+              "Giày"
+            ],
+            "correctAnswer": "Mùa hè",
+            "explanation": "なつ (natsu) nghĩa là Mùa hè."
+          },
+          {
+            "id": "d3-q12",
+            "type": "multiple_choice",
+            "prompt": "ねこ có nghĩa là gì?",
+            "options": [
+              "Con mèo",
+              "Mùa hè",
+              "Con chó",
+              "Giày"
+            ],
+            "correctAnswer": "Con mèo",
+            "explanation": "ねこ (neko) nghĩa là Con mèo."
+          },
+          {
+            "id": "d3-q13",
+            "type": "multiple_choice",
+            "prompt": "いぬ có nghĩa là gì?",
+            "options": [
+              "Con chó",
+              "Mùa hè",
+              "Con mèo",
+              "Giày"
+            ],
+            "correctAnswer": "Con chó",
+            "explanation": "いぬ (inu) nghĩa là Con chó."
+          },
+          {
+            "id": "d3-q14",
+            "type": "multiple_choice",
+            "prompt": "くつ có nghĩa là gì?",
+            "options": [
+              "Giày",
+              "Mùa hè",
+              "Con mèo",
+              "Con chó"
+            ],
+            "correctAnswer": "Giày",
+            "explanation": "くつ (kutsu) nghĩa là Giày."
+          },
+          {
+            "id": "d3-q15",
+            "type": "multiple_choice",
+            "prompt": "Câu japanese có nghĩa là gì?",
+            "options": [
+              "translationVi",
+              "Tôi là học sinh.",
+              "Bạn khỏe không?",
+              "Đây là nhà ga."
+            ],
+            "correctAnswer": "translationVi",
+            "explanation": "explanationVi"
+          },
+          {
+            "id": "d3-q16",
+            "type": "multiple_choice",
+            "prompt": "Câu japanese có nghĩa là gì?",
+            "options": [
+              "translationVi",
+              "Tôi là học sinh.",
+              "Bạn khỏe không?",
+              "Đây là nhà ga."
+            ],
+            "correctAnswer": "translationVi",
+            "explanation": "explanationVi"
+          }
+        ]
+      },
+      "completionRules": {
+        "requireAssessmentPassed": true,
+        "requireAllPracticeTasks": false,
+        "unlockNextLessonOnPass": true
+      },
+      "previewNotes": [
+        "Mẫu câu có chữ れ, は, ど chưa học."
+      ]
+    },
+    {
+      "id": "jlpt-n5-day-04",
+      "day": 4,
+      "slug": "ngay-04",
+      "title": "Hiragana hàng H và M",
+      "level": "N5",
+      "estimatedMinutes": 75,
+      "prerequisiteLessonId": "jlpt-n5-day-03",
+      "learningObjectives": [
+        "Đọc 10 chữ hàng H và M",
+        "Phân biệt は/ほ và ま/も",
+        "Học 12 từ",
+        "Nói điều mình thích"
+      ],
+      "sections": [
+        {
+          "id": "alphabet",
+          "type": "alphabet",
+          "title": "Bảng chữ cái",
+          "groups": [
+            "Hàng H",
+            "Hàng M"
+          ],
+          "items": [
+            {
+              "character": "は",
+              "romaji": "ha",
+              "pronunciationNote": "Đọc ha trong từ; đọc wa khi là trợ từ chủ đề.",
+              "writingPracticeCount": 10
+            },
+            {
+              "character": "ひ",
+              "romaji": "hi",
+              "pronunciationNote": "",
+              "writingPracticeCount": 10
+            },
+            {
+              "character": "ふ",
+              "romaji": "fu",
+              "pronunciationNote": "Âm fu nhẹ qua hai môi, không giống hoàn toàn phu.",
+              "writingPracticeCount": 10
+            },
+            {
+              "character": "へ",
+              "romaji": "he",
+              "pronunciationNote": "Đọc he trong từ; đọc e khi là trợ từ chỉ hướng.",
+              "writingPracticeCount": 10
+            },
+            {
+              "character": "ほ",
+              "romaji": "ho",
+              "pronunciationNote": "Phân biệt ほ với は.",
+              "writingPracticeCount": 10
+            },
+            {
+              "character": "ま",
+              "romaji": "ma",
+              "pronunciationNote": "Phân biệt ま với も.",
+              "writingPracticeCount": 10
+            },
+            {
+              "character": "み",
+              "romaji": "mi",
+              "pronunciationNote": "",
+              "writingPracticeCount": 10
+            },
+            {
+              "character": "む",
+              "romaji": "mu",
+              "pronunciationNote": "",
+              "writingPracticeCount": 10
+            },
+            {
+              "character": "め",
+              "romaji": "me",
+              "pronunciationNote": "",
+              "writingPracticeCount": 10
+            },
+            {
+              "character": "も",
+              "romaji": "mo",
+              "pronunciationNote": "",
+              "writingPracticeCount": 10
+            }
+          ]
+        },
+        {
+          "id": "vocabulary",
+          "type": "vocabulary",
+          "title": "Từ vựng",
+          "items": [
+            {
+              "japanese": "はな",
+              "romaji": "hana",
+              "meaningVi": "Hoa / mũi tùy ngữ cảnh",
+              "isPreview": false
+            },
+            {
+              "japanese": "はは",
+              "romaji": "haha",
+              "meaningVi": "Mẹ mình (khi nói về mẹ với người khác)",
+              "isPreview": false
+            },
+            {
+              "japanese": "ひと",
+              "romaji": "hito",
+              "meaningVi": "Người",
+              "isPreview": false
+            },
+            {
+              "japanese": "ふね",
+              "romaji": "fune",
+              "meaningVi": "Thuyền",
+              "isPreview": false
+            },
+            {
+              "japanese": "へた",
+              "romaji": "heta",
+              "meaningVi": "Kém, không giỏi",
+              "isPreview": false
+            },
+            {
+              "japanese": "ほし",
+              "romaji": "hoshi",
+              "meaningVi": "Ngôi sao",
+              "isPreview": false
+            },
+            {
+              "japanese": "まち",
+              "romaji": "machi",
+              "meaningVi": "Thị trấn",
+              "isPreview": false
+            },
+            {
+              "japanese": "みみ",
+              "romaji": "mimi",
+              "meaningVi": "Tai",
+              "isPreview": false
+            },
+            {
+              "japanese": "むし",
+              "romaji": "mushi",
+              "meaningVi": "Côn trùng",
+              "isPreview": false
+            },
+            {
+              "japanese": "め",
+              "romaji": "me",
+              "meaningVi": "Mắt",
+              "isPreview": false
+            },
+            {
+              "japanese": "もも",
+              "romaji": "momo",
+              "meaningVi": "Quả đào",
+              "isPreview": false
+            },
+            {
+              "japanese": "ほん",
+              "romaji": "hon",
+              "meaningVi": "Quyển sách",
+              "isPreview": true
+            }
+          ]
+        },
+        {
+          "id": "conversation",
+          "type": "conversation",
+          "title": "Giao tiếp",
+          "items": [
+            {
+              "japanese": "わたしは すしが すきです。",
+              "romaji": "Watashi wa sushi ga suki desu.",
+              "translationVi": "Tôi thích sushi.",
+              "explanationVi": "Mẫu: わたしは [danh từ] が すきです。"
+            },
+            {
+              "japanese": "わたしは ねこが すきです。",
+              "romaji": "Watashi wa neko ga suki desu.",
+              "translationVi": "Tôi thích mèo.",
+              "explanationVi": ""
+            },
+            {
+              "japanese": "わたしは はなが すきです。",
+              "romaji": "Watashi wa hana ga suki desu.",
+              "translationVi": "Tôi thích hoa.",
+              "explanationVi": ""
+            }
+          ]
+        },
+        {
+          "id": "practice",
+          "type": "practice",
+          "title": "Luyện tập",
+          "tasks": [
+            {
+              "id": "write",
+              "type": "handwriting",
+              "instructionVi": "Viết mỗi chữ mới 10 lần.",
+              "targetCharacterCount": 10
+            },
+            {
+              "id": "read",
+              "type": "reading",
+              "instructionVi": "Đọc các chữ mới và từ vựng không nhìn Romaji."
+            },
+            {
+              "id": "speak",
+              "type": "speaking",
+              "instructionVi": "Đọc to các mẫu câu giao tiếp ít nhất 3 lần."
+            },
+            {
+              "id": "review",
+              "type": "review",
+              "instructionVi": "Ôn lại bảng chữ cái và từ vựng các ngày trước."
+            }
+          ]
+        }
+      ],
+      "assessment": {
+        "id": "day-4-quiz",
+        "title": "Kiểm tra ngày 4",
+        "questionCount": 16,
+        "passingScore": 12,
+        "maxScore": 16,
+        "questions": [
+          {
+            "id": "d4-q01",
+            "type": "multiple_choice",
+            "prompt": "Chữ は đọc là gì?",
+            "options": [
+              "ha",
+              "ka",
+              "shi",
+              "ta"
+            ],
+            "correctAnswer": "ha",
+            "explanation": "は đọc là ha."
+          },
+          {
+            "id": "d4-q02",
+            "type": "multiple_choice",
+            "prompt": "Chữ ひ đọc là gì?",
+            "options": [
+              "hi",
+              "ka",
+              "shi",
+              "ta"
+            ],
+            "correctAnswer": "hi",
+            "explanation": "ひ đọc là hi."
+          },
+          {
+            "id": "d4-q03",
+            "type": "multiple_choice",
+            "prompt": "Chữ ふ đọc là gì?",
+            "options": [
+              "fu",
+              "ka",
+              "shi",
+              "ta"
+            ],
+            "correctAnswer": "fu",
+            "explanation": "ふ đọc là fu."
+          },
+          {
+            "id": "d4-q04",
+            "type": "multiple_choice",
+            "prompt": "Chữ へ đọc là gì?",
+            "options": [
+              "he",
+              "ka",
+              "shi",
+              "ta"
+            ],
+            "correctAnswer": "he",
+            "explanation": "へ đọc là he."
+          },
+          {
+            "id": "d4-q05",
+            "type": "multiple_choice",
+            "prompt": "Chữ ほ đọc là gì?",
+            "options": [
+              "ho",
+              "ka",
+              "shi",
+              "ta"
+            ],
+            "correctAnswer": "ho",
+            "explanation": "ほ đọc là ho."
+          },
+          {
+            "id": "d4-q06",
+            "type": "multiple_choice",
+            "prompt": "Chữ ま đọc là gì?",
+            "options": [
+              "ma",
+              "ka",
+              "shi",
+              "ta"
+            ],
+            "correctAnswer": "ma",
+            "explanation": "ま đọc là ma."
+          },
+          {
+            "id": "d4-q07",
+            "type": "multiple_choice",
+            "prompt": "Chữ み đọc là gì?",
+            "options": [
+              "mi",
+              "ka",
+              "shi",
+              "ta"
+            ],
+            "correctAnswer": "mi",
+            "explanation": "み đọc là mi."
+          },
+          {
+            "id": "d4-q08",
+            "type": "multiple_choice",
+            "prompt": "Chữ む đọc là gì?",
+            "options": [
+              "mu",
+              "ka",
+              "shi",
+              "ta"
+            ],
+            "correctAnswer": "mu",
+            "explanation": "む đọc là mu."
+          },
+          {
+            "id": "d4-q09",
+            "type": "multiple_choice",
+            "prompt": "Chữ め đọc là gì?",
+            "options": [
+              "me",
+              "ka",
+              "shi",
+              "ta"
+            ],
+            "correctAnswer": "me",
+            "explanation": "め đọc là me."
+          },
+          {
+            "id": "d4-q10",
+            "type": "multiple_choice",
+            "prompt": "Chữ も đọc là gì?",
+            "options": [
+              "mo",
+              "ka",
+              "shi",
+              "ta"
+            ],
+            "correctAnswer": "mo",
+            "explanation": "も đọc là mo."
+          },
+          {
+            "id": "d4-q11",
+            "type": "multiple_choice",
+            "prompt": "はな có nghĩa là gì?",
+            "options": [
+              "Hoa / mũi tùy ngữ cảnh",
+              "Mẹ mình (khi nói về mẹ với người khác)",
+              "Người",
+              "Thuyền"
+            ],
+            "correctAnswer": "Hoa / mũi tùy ngữ cảnh",
+            "explanation": "はな (hana) nghĩa là Hoa / mũi tùy ngữ cảnh."
+          },
+          {
+            "id": "d4-q12",
+            "type": "multiple_choice",
+            "prompt": "はは có nghĩa là gì?",
+            "options": [
+              "Mẹ mình (khi nói về mẹ với người khác)",
+              "Hoa / mũi tùy ngữ cảnh",
+              "Người",
+              "Thuyền"
+            ],
+            "correctAnswer": "Mẹ mình (khi nói về mẹ với người khác)",
+            "explanation": "はは (haha) nghĩa là Mẹ mình (khi nói về mẹ với người khác)."
+          },
+          {
+            "id": "d4-q13",
+            "type": "multiple_choice",
+            "prompt": "ひと có nghĩa là gì?",
+            "options": [
+              "Người",
+              "Hoa / mũi tùy ngữ cảnh",
+              "Mẹ mình (khi nói về mẹ với người khác)",
+              "Thuyền"
+            ],
+            "correctAnswer": "Người",
+            "explanation": "ひと (hito) nghĩa là Người."
+          },
+          {
+            "id": "d4-q14",
+            "type": "multiple_choice",
+            "prompt": "ふね có nghĩa là gì?",
+            "options": [
+              "Thuyền",
+              "Hoa / mũi tùy ngữ cảnh",
+              "Mẹ mình (khi nói về mẹ với người khác)",
+              "Người"
+            ],
+            "correctAnswer": "Thuyền",
+            "explanation": "ふね (fune) nghĩa là Thuyền."
+          },
+          {
+            "id": "d4-q15",
+            "type": "multiple_choice",
+            "prompt": "Câu japanese có nghĩa là gì?",
+            "options": [
+              "translationVi",
+              "Tôi là học sinh.",
+              "Bạn khỏe không?",
+              "Đây là nhà ga."
+            ],
+            "correctAnswer": "translationVi",
+            "explanation": "explanationVi"
+          },
+          {
+            "id": "d4-q16",
+            "type": "multiple_choice",
+            "prompt": "Câu japanese có nghĩa là gì?",
+            "options": [
+              "translationVi",
+              "Tôi là học sinh.",
+              "Bạn khỏe không?",
+              "Đây là nhà ga."
+            ],
+            "correctAnswer": "translationVi",
+            "explanation": "explanationVi"
+          }
+        ]
+      },
+      "completionRules": {
+        "requireAssessmentPassed": true,
+        "requireAllPracticeTasks": false,
+        "unlockNextLessonOnPass": true
+      },
+      "previewNotes": [
+        "ほん có ん, sẽ học ngày 5.",
+        "Mẫu câu chứa chữ chưa học được dạy như câu cố định."
+      ]
+    },
+    {
+      "id": "jlpt-n5-day-05",
+      "day": 5,
+      "slug": "ngay-05",
+      "title": "Hoàn thành 46 chữ Hiragana cơ bản",
+      "level": "N5",
+      "estimatedMinutes": 75,
+      "prerequisiteLessonId": "jlpt-n5-day-04",
+      "learningObjectives": [
+        "Nhận diện đủ 46 chữ Hiragana cơ bản",
+        "Đọc 11 chữ cuối cùng",
+        "Hiểu cách đọc を và ん",
+        "Đọc 12 từ vựng",
+        "Giới thiệu một đồ vật"
+      ],
+      "sections": [
+        {
+          "id": "alphabet",
+          "type": "alphabet",
+          "title": "Bảng chữ cái",
+          "groups": [
+            "Hàng Y",
+            "Hàng R",
+            "Hàng W và ん"
+          ],
+          "items": [
+            {
+              "character": "や",
+              "romaji": "ya",
+              "pronunciationNote": "",
+              "writingPracticeCount": 10
+            },
+            {
+              "character": "ゆ",
+              "romaji": "yu",
+              "pronunciationNote": "",
+              "writingPracticeCount": 10
+            },
+            {
+              "character": "よ",
+              "romaji": "yo",
+              "pronunciationNote": "",
+              "writingPracticeCount": 10
+            },
+            {
+              "character": "ら",
+              "romaji": "ra",
+              "pronunciationNote": "Âm r Nhật: đầu lưỡi chạm nhanh lợi trên.",
+              "writingPracticeCount": 10
+            },
+            {
+              "character": "り",
+              "romaji": "ri",
+              "pronunciationNote": "Âm r Nhật: đầu lưỡi chạm nhanh lợi trên.",
+              "writingPracticeCount": 10
+            },
+            {
+              "character": "る",
+              "romaji": "ru",
+              "pronunciationNote": "Âm r Nhật: đầu lưỡi chạm nhanh lợi trên.",
+              "writingPracticeCount": 10
+            },
+            {
+              "character": "れ",
+              "romaji": "re",
+              "pronunciationNote": "Âm r Nhật: đầu lưỡi chạm nhanh lợi trên.",
+              "writingPracticeCount": 10
+            },
+            {
+              "character": "ろ",
+              "romaji": "ro",
+              "pronunciationNote": "Âm r Nhật: đầu lưỡi chạm nhanh lợi trên.",
+              "writingPracticeCount": 10
+            },
+            {
+              "character": "わ",
+              "romaji": "wa",
+              "pronunciationNote": "",
+              "writingPracticeCount": 10
+            },
+            {
+              "character": "を",
+              "romaji": "wo",
+              "pronunciationNote": "Thường phát âm o trong tiếng Nhật hiện đại; chủ yếu dùng làm trợ từ.",
+              "writingPracticeCount": 10
+            },
+            {
+              "character": "ん",
+              "romaji": "n",
+              "pronunciationNote": "Âm mũi có một nhịp riêng, thay đổi theo âm kế tiếp.",
+              "writingPracticeCount": 10
+            }
+          ]
+        },
+        {
+          "id": "vocabulary",
+          "type": "vocabulary",
+          "title": "Từ vựng",
+          "items": [
+            {
+              "japanese": "やま",
+              "romaji": "yama",
+              "meaningVi": "Núi",
+              "isPreview": false
+            },
+            {
+              "japanese": "ゆき",
+              "romaji": "yuki",
+              "meaningVi": "Tuyết",
+              "isPreview": false
+            },
+            {
+              "japanese": "よる",
+              "romaji": "yoru",
+              "meaningVi": "Ban đêm",
+              "isPreview": false
+            },
+            {
+              "japanese": "さくら",
+              "romaji": "sakura",
+              "meaningVi": "Hoa anh đào",
+              "isPreview": false
+            },
+            {
+              "japanese": "くるま",
+              "romaji": "kuruma",
+              "meaningVi": "Ô tô",
+              "isPreview": false
+            },
+            {
+              "japanese": "とり",
+              "romaji": "tori",
+              "meaningVi": "Chim",
+              "isPreview": false
+            },
+            {
+              "japanese": "これ",
+              "romaji": "kore",
+              "meaningVi": "Cái này",
+              "isPreview": false
+            },
+            {
+              "japanese": "わたし",
+              "romaji": "watashi",
+              "meaningVi": "Tôi",
+              "isPreview": false
+            },
+            {
+              "japanese": "わかる",
+              "romaji": "wakaru",
+              "meaningVi": "Hiểu",
+              "isPreview": false
+            },
+            {
+              "japanese": "ほん",
+              "romaji": "hon",
+              "meaningVi": "Sách",
+              "isPreview": false
+            },
+            {
+              "japanese": "みかん",
+              "romaji": "mikan",
+              "meaningVi": "Quýt",
+              "isPreview": false
+            },
+            {
+              "japanese": "りんご",
+              "romaji": "ringo",
+              "meaningVi": "Táo",
+              "isPreview": true
+            }
+          ]
+        },
+        {
+          "id": "conversation",
+          "type": "conversation",
+          "title": "Giao tiếp",
+          "items": [
+            {
+              "japanese": "これは なんですか。",
+              "romaji": "Kore wa nan desu ka?",
+              "translationVi": "Đây là cái gì?",
+              "explanationVi": ""
+            },
+            {
+              "japanese": "これは ほんです。",
+              "romaji": "Kore wa hon desu.",
+              "translationVi": "Đây là quyển sách.",
+              "explanationVi": ""
+            },
+            {
+              "japanese": "これは くるまです。",
+              "romaji": "Kore wa kuruma desu.",
+              "translationVi": "Đây là ô tô.",
+              "explanationVi": ""
+            },
+            {
+              "japanese": "これは みかんです。",
+              "romaji": "Kore wa mikan desu.",
+              "translationVi": "Đây là quả quýt.",
+              "explanationVi": ""
+            }
+          ]
+        },
+        {
+          "id": "practice",
+          "type": "practice",
+          "title": "Luyện tập",
+          "tasks": [
+            {
+              "id": "write",
+              "type": "handwriting",
+              "instructionVi": "Viết mỗi chữ mới 10 lần.",
+              "targetCharacterCount": 11
+            },
+            {
+              "id": "read",
+              "type": "reading",
+              "instructionVi": "Đọc các chữ mới và từ vựng không nhìn Romaji."
+            },
+            {
+              "id": "speak",
+              "type": "speaking",
+              "instructionVi": "Đọc to các mẫu câu giao tiếp ít nhất 3 lần."
+            },
+            {
+              "id": "review",
+              "type": "review",
+              "instructionVi": "Ôn lại bảng chữ cái và từ vựng các ngày trước."
+            }
+          ]
+        }
+      ],
+      "assessment": {
+        "id": "day-5-quiz",
+        "title": "Kiểm tra ngày 5",
+        "questionCount": 20,
+        "passingScore": 16,
+        "maxScore": 20,
+        "questions": [
+          {
+            "id": "d5-q01",
+            "type": "multiple_choice",
+            "prompt": "Chữ や đọc là gì?",
+            "options": [
+              "ya",
+              "ka",
+              "shi",
+              "ta"
+            ],
+            "correctAnswer": "ya",
+            "explanation": "や đọc là ya."
+          },
+          {
+            "id": "d5-q02",
+            "type": "multiple_choice",
+            "prompt": "Chữ ゆ đọc là gì?",
+            "options": [
+              "yu",
+              "ka",
+              "shi",
+              "ta"
+            ],
+            "correctAnswer": "yu",
+            "explanation": "ゆ đọc là yu."
+          },
+          {
+            "id": "d5-q03",
+            "type": "multiple_choice",
+            "prompt": "Chữ よ đọc là gì?",
+            "options": [
+              "yo",
+              "ka",
+              "shi",
+              "ta"
+            ],
+            "correctAnswer": "yo",
+            "explanation": "よ đọc là yo."
+          },
+          {
+            "id": "d5-q04",
+            "type": "multiple_choice",
+            "prompt": "Chữ ら đọc là gì?",
+            "options": [
+              "ra",
+              "ka",
+              "shi",
+              "ta"
+            ],
+            "correctAnswer": "ra",
+            "explanation": "ら đọc là ra."
+          },
+          {
+            "id": "d5-q05",
+            "type": "multiple_choice",
+            "prompt": "Chữ り đọc là gì?",
+            "options": [
+              "ri",
+              "ka",
+              "shi",
+              "ta"
+            ],
+            "correctAnswer": "ri",
+            "explanation": "り đọc là ri."
+          },
+          {
+            "id": "d5-q06",
+            "type": "multiple_choice",
+            "prompt": "Chữ る đọc là gì?",
+            "options": [
+              "ru",
+              "ka",
+              "shi",
+              "ta"
+            ],
+            "correctAnswer": "ru",
+            "explanation": "る đọc là ru."
+          },
+          {
+            "id": "d5-q07",
+            "type": "multiple_choice",
+            "prompt": "Chữ れ đọc là gì?",
+            "options": [
+              "re",
+              "ka",
+              "shi",
+              "ta"
+            ],
+            "correctAnswer": "re",
+            "explanation": "れ đọc là re."
+          },
+          {
+            "id": "d5-q08",
+            "type": "multiple_choice",
+            "prompt": "Chữ ろ đọc là gì?",
+            "options": [
+              "ro",
+              "ka",
+              "shi",
+              "ta"
+            ],
+            "correctAnswer": "ro",
+            "explanation": "ろ đọc là ro."
+          },
+          {
+            "id": "d5-q09",
+            "type": "multiple_choice",
+            "prompt": "Chữ わ đọc là gì?",
+            "options": [
+              "wa",
+              "ka",
+              "shi",
+              "ta"
+            ],
+            "correctAnswer": "wa",
+            "explanation": "わ đọc là wa."
+          },
+          {
+            "id": "d5-q10",
+            "type": "multiple_choice",
+            "prompt": "Chữ を đọc là gì?",
+            "options": [
+              "wo",
+              "ka",
+              "shi",
+              "ta"
+            ],
+            "correctAnswer": "wo",
+            "explanation": "を đọc là wo."
+          },
+          {
+            "id": "d5-q11",
+            "type": "multiple_choice",
+            "prompt": "Chữ ん đọc là gì?",
+            "options": [
+              "n",
+              "ka",
+              "shi",
+              "ta"
+            ],
+            "correctAnswer": "n",
+            "explanation": "ん đọc là n."
+          },
+          {
+            "id": "d5-q12",
+            "type": "multiple_choice",
+            "prompt": "やま có nghĩa là gì?",
+            "options": [
+              "Núi",
+              "Tuyết",
+              "Ban đêm",
+              "Hoa anh đào"
+            ],
+            "correctAnswer": "Núi",
+            "explanation": "やま (yama) nghĩa là Núi."
+          },
+          {
+            "id": "d5-q13",
+            "type": "multiple_choice",
+            "prompt": "ゆき có nghĩa là gì?",
+            "options": [
+              "Tuyết",
+              "Núi",
+              "Ban đêm",
+              "Hoa anh đào"
+            ],
+            "correctAnswer": "Tuyết",
+            "explanation": "ゆき (yuki) nghĩa là Tuyết."
+          },
+          {
+            "id": "d5-q14",
+            "type": "multiple_choice",
+            "prompt": "よる có nghĩa là gì?",
+            "options": [
+              "Ban đêm",
+              "Núi",
+              "Tuyết",
+              "Hoa anh đào"
+            ],
+            "correctAnswer": "Ban đêm",
+            "explanation": "よる (yoru) nghĩa là Ban đêm."
+          },
+          {
+            "id": "d5-q15",
+            "type": "multiple_choice",
+            "prompt": "さくら có nghĩa là gì?",
+            "options": [
+              "Hoa anh đào",
+              "Núi",
+              "Tuyết",
+              "Ban đêm"
+            ],
+            "correctAnswer": "Hoa anh đào",
+            "explanation": "さくら (sakura) nghĩa là Hoa anh đào."
+          },
+          {
+            "id": "d5-q16",
+            "type": "multiple_choice",
+            "prompt": "Câu japanese có nghĩa là gì?",
+            "options": [
+              "translationVi",
+              "Tôi là học sinh.",
+              "Bạn khỏe không?",
+              "Đây là nhà ga."
+            ],
+            "correctAnswer": "translationVi",
+            "explanation": "explanationVi"
+          },
+          {
+            "id": "d5-q17",
+            "type": "multiple_choice",
+            "prompt": "Câu japanese có nghĩa là gì?",
+            "options": [
+              "translationVi",
+              "Tôi là học sinh.",
+              "Bạn khỏe không?",
+              "Đây là nhà ga."
+            ],
+            "correctAnswer": "translationVi",
+            "explanation": "explanationVi"
+          },
+          {
+            "id": "d5-q18",
+            "type": "multiple_choice",
+            "prompt": "を thường được đọc như thế nào?",
+            "options": [
+              "wa",
+              "o",
+              "ya",
+              "ro"
+            ],
+            "correctAnswer": "o",
+            "explanation": "を thường đọc là o."
+          },
+          {
+            "id": "d5-q19",
+            "type": "multiple_choice",
+            "prompt": "ん biểu thị âm gì?",
+            "options": [
+              "Âm mũi",
+              "Âm ka",
+              "Âm ya",
+              "Âm ra"
+            ],
+            "correctAnswer": "Âm mũi",
+            "explanation": "ん là âm mũi một nhịp."
+          },
+          {
+            "id": "d5-q20",
+            "type": "multiple_choice",
+            "prompt": "Trong これは, は được đọc thế nào?",
+            "options": [
+              "ha",
+              "wa",
+              "hi",
+              "fu"
+            ],
+            "correctAnswer": "wa",
+            "explanation": "は khi là trợ từ chủ đề đọc wa."
+          }
+        ]
+      },
+      "completionRules": {
+        "requireAssessmentPassed": true,
+        "requireAllPracticeTasks": false,
+        "unlockNextLessonOnPass": true
+      },
+      "previewNotes": [
+        "りんご chứa ご (âm đục), sẽ học ngày 6."
+      ]
+    }
+  ],
+  "progressDataModel": {
+    "userId": "string",
+    "lessonId": "string",
+    "status": "locked | available | in_progress | completed",
+    "completedPracticeTaskIds": [
+      "string"
+    ],
+    "bestQuizScore": "number | null",
+    "quizAttempts": "number",
+    "completedAt": "ISO-8601 | null"
+  },
+  "implementationNotes": [
+    "Lưu tiến độ theo userId + lessonId, không sửa trực tiếp JSON bài học.",
+    "correctAnswer có trong dữ liệu: khi triển khai backend, không gửi trường này tới client trước lúc nộp bài nếu cần chống xem đáp án.",
+    "isPreview=true nghĩa là từ chứa chữ hoặc quy tắc chưa được học chính thức.",
+    "Romaji chỉ là trợ giúp ban đầu; nên có tùy chọn ẩn Romaji.",
+    "Bài kiểm tra được chuẩn hóa từ nội dung bài học; không phải đề JLPT chính thức."
+  ]
+}

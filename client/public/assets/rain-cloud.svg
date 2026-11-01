@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 140" fill="none">
+  <!-- Soft blue raincloud -->
+  <path d="M40 75 Q20 75 20 55 Q20 35 40 35 Q45 20 65 20 Q85 20 95 32 Q105 22 120 25 Q135 28 140 45 Q150 50 150 65 Q150 75 135 75 Z" fill="#93C5FD" stroke="#60A5FA" stroke-width="3"/>
+  <!-- Highlights -->
+  <path d="M45 40 Q55 28 70 28" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Cute Raindrops -->
+  <g stroke="#3B82F6" stroke-width="3.5" stroke-linecap="round">
+    <line x1="45" y1="90" x2="40" y2="105"/>
+    <line x1="75" y1="90" x2="70" y2="105"/>
+    <line x1="105" y1="90" x2="100" y2="105"/>
+    <line x1="130" y1="90" x2="125" y2="105"/>
+    
+    <line x1="60" y1="110" x2="55" y2="125"/>
+    <line x1="90" y1="110" x2="85" y2="125"/>
+    <line x1="120" y1="110" x2="115" y2="125"/>
+  </g>
+</svg>
