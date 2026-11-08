@@ -206,7 +206,7 @@ export const quizRepository = {
         );
         if (existingProg && existingProg.length > 0) {
           await conn.query(
-            "UPDATE user_lesson_progress SET status = 'completed', progress_percent = 100, completed_at = datetime('now') WHERE id = ?",
+            "UPDATE user_lesson_progress SET status = 'completed', progress_percent = 100, completed_at = NOW() WHERE id = ?",
             [existingProg[0].id],
           );
         } else {
