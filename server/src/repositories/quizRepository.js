@@ -1,16 +1,21 @@
-import { getPool } from '../config/db.js';
-import { getLocalDateString } from '../utils/date.js';
+import { getPool } from "../config/db.js";
+import { getLocalDateString } from "../utils/date.js";
 
 export const quizRepository = {
   async getQuizByLessonId(lessonId) {
     const pool = await getPool();
-    const [rows] = await pool.query('SELECT * FROM quizzes WHERE lesson_id = ?', [lessonId]);
+    const [rows] = await pool.query(
+      "SELECT * FROM quizzes WHERE lesson_id = ?",
+      [lessonId],
+    );
     return rows[0] || null;
   },
 
   async getQuizById(quizId) {
     const pool = await getPool();
-    const [rows] = await pool.query('SELECT * FROM quizzes WHERE id = ?', [quizId]);
+    const [rows] = await pool.query("SELECT * FROM quizzes WHERE id = ?", [
+      quizId,
+    ]);
     return rows[0] || null;
   },
 
@@ -21,19 +26,19 @@ export const quizRepository = {
     if (!quiz) return null;
 
     const [questions] = await pool.query(
-      'SELECT id, quiz_id, question_text, question_type, display_order FROM quiz_questions WHERE quiz_id = ? ORDER BY display_order ASC',
-      [quiz.id]
+      "SELECT id, quiz_id, question_text, question_type, display_order FROM quiz_questions WHERE quiz_id = ? ORDER BY display_order ASC",
+      [quiz.id],
     );
 
-    const questionIds = questions.map(q => q.id);
+    const questionIds = questions.map((q) => q.id);
     let options = [];
     if (questionIds.length > 0) {
       // Fetch options without is_correct
       const [optRows] = await pool.query(
-        'SELECT id, question_id, option_text, display_order FROM quiz_options WHERE question_id IN (' +
-          questionIds.map(() => '?').join(',') +
-          ') ORDER BY display_order ASC',
-        questionIds
+        "SELECT id, question_id, option_text, display_order FROM quiz_options WHERE question_id IN (" +
+          questionIds.map(() => "?").join(",") +
+          ") ORDER BY display_order ASC",
+        questionIds,
       );
       options = optRows;
     }
@@ -57,7 +62,7 @@ export const quizRepository = {
       passingScore: quiz.passing_score,
       maxScore: quiz.max_score,
       totalQuestions: quiz.total_questions,
-      questions: questions.map(q => ({
+      questions: questions.map((q) => ({
         id: q.id,
         prompt: q.question_text,
         type: q.question_type,
@@ -76,21 +81,24 @@ export const quizRepository = {
     }
 
     // Get current lesson
-    const [lessonRows] = await pool.query('SELECT * FROM lessons WHERE id = ?', [quiz.lesson_id]);
+    const [lessonRows] = await pool.query(
+      "SELECT * FROM lessons WHERE id = ?",
+      [quiz.lesson_id],
+    );
     const lesson = lessonRows[0];
 
     // Fetch all questions and their correct options
     const [questions] = await pool.query(
-      'SELECT id, question_text, explanation, display_order FROM quiz_questions WHERE quiz_id = ? ORDER BY display_order ASC',
-      [quiz.id]
+      "SELECT id, question_text, explanation, display_order FROM quiz_questions WHERE quiz_id = ? ORDER BY display_order ASC",
+      [quiz.id],
     );
 
-    const questionIds = questions.map(q => q.id);
+    const questionIds = questions.map((q) => q.id);
     const [options] = await pool.query(
-      'SELECT id, question_id, option_text, is_correct FROM quiz_options WHERE question_id IN (' +
-        questionIds.map(() => '?').join(',') +
-        ')',
-      questionIds
+      "SELECT id, question_id, option_text, is_correct FROM quiz_options WHERE question_id IN (" +
+        questionIds.map(() => "?").join(",") +
+        ")",
+      questionIds,
     );
 
     const optionsByQ = {};
@@ -119,7 +127,9 @@ export const quizRepository = {
 
       if (selected !== undefined && selected !== null) {
         const foundOpt = allOpts.find(
-          o => String(o.id) === String(selected) || String(o.option_text).trim() === String(selected).trim()
+          (o) =>
+            String(o.id) === String(selected) ||
+            String(o.option_text).trim() === String(selected).trim(),
         );
         if (foundOpt) {
           selectedOptionId = foundOpt.id;
@@ -139,7 +149,7 @@ export const quizRepository = {
         prompt: q.question_text,
         explanation: q.explanation,
         userAnswer: selectedText,
-        correctAnswer: correctOpt?.option_text || '',
+        correctAnswer: correctOpt?.option_text || "",
         isCorrect,
       });
 
@@ -159,8 +169,15 @@ export const quizRepository = {
 
       // 1. Insert quiz_attempts
       const [attemptResult] = await conn.query(
-        'INSERT INTO quiz_attempts (user_id, quiz_id, score, total_questions, passing_score, is_passed) VALUES (?, ?, ?, ?, ?, ?)',
-        [userId, quiz.id, score, questions.length, quiz.passing_score, isPassed ? 1 : 0]
+        "INSERT INTO quiz_attempts (user_id, quiz_id, score, total_questions, passing_score, is_passed) VALUES (?, ?, ?, ?, ?, ?)",
+        [
+          userId,
+          quiz.id,
+          score,
+          questions.length,
+          quiz.passing_score,
+          isPassed ? 1 : 0,
+        ],
       );
 
       const attemptId = attemptResult.insertId;
@@ -168,8 +185,14 @@ export const quizRepository = {
       // 2. Insert quiz_answers
       for (const ans of answersToInsert) {
         await conn.query(
-          'INSERT INTO quiz_answers (attempt_id, question_id, selected_option_id, selected_text, is_correct) VALUES (?, ?, ?, ?, ?)',
-          [attemptId, ans.questionId, ans.selectedOptionId, ans.selectedText, ans.isCorrect]
+          "INSERT INTO quiz_answers (attempt_id, question_id, selected_option_id, selected_text, is_correct) VALUES (?, ?, ?, ?, ?)",
+          [
+            attemptId,
+            ans.questionId,
+            ans.selectedOptionId,
+            ans.selectedText,
+            ans.isCorrect,
+          ],
         );
       }
 
@@ -178,26 +201,26 @@ export const quizRepository = {
       if (isPassed && lesson) {
         // Mark current lesson completed
         const [existingProg] = await conn.query(
-          'SELECT id FROM user_lesson_progress WHERE user_id = ? AND lesson_id = ?',
-          [userId, lesson.id]
+          "SELECT id FROM user_lesson_progress WHERE user_id = ? AND lesson_id = ?",
+          [userId, lesson.id],
         );
         if (existingProg && existingProg.length > 0) {
           await conn.query(
             "UPDATE user_lesson_progress SET status = 'completed', progress_percent = 100, completed_at = datetime('now') WHERE id = ?",
-            [existingProg[0].id]
+            [existingProg[0].id],
           );
         } else {
           await conn.query(
-            "INSERT INTO user_lesson_progress (user_id, lesson_id, status, progress_percent, completed_at) VALUES (?, ?, 'completed', 100, datetime('now'))",
-            [userId, lesson.id]
+            "INSERT INTO user_lesson_progress (user_id, lesson_id, status, progress_percent, completed_at) VALUES (?, ?, 'completed', 100, NOW())",
+            [userId, lesson.id],
           );
         }
 
         // Check if next day lesson exists
         const nextDayNumber = lesson.day_number + 1;
         const [nextLessonRows] = await conn.query(
-          'SELECT id, day_number, title FROM lessons WHERE day_number = ?',
-          [nextDayNumber]
+          "SELECT id, day_number, title FROM lessons WHERE day_number = ?",
+          [nextDayNumber],
         );
 
         if (nextLessonRows && nextLessonRows.length > 0) {
@@ -205,19 +228,19 @@ export const quizRepository = {
           nextLessonUnlocked = nextLesson;
 
           const [existingNextProg] = await conn.query(
-            'SELECT id, status FROM user_lesson_progress WHERE user_id = ? AND lesson_id = ?',
-            [userId, nextLesson.id]
+            "SELECT id, status FROM user_lesson_progress WHERE user_id = ? AND lesson_id = ?",
+            [userId, nextLesson.id],
           );
 
           if (!existingNextProg || existingNextProg.length === 0) {
             await conn.query(
               "INSERT INTO user_lesson_progress (user_id, lesson_id, status, progress_percent) VALUES (?, ?, 'available', 0)",
-              [userId, nextLesson.id]
+              [userId, nextLesson.id],
             );
-          } else if (existingNextProg[0].status === 'locked') {
+          } else if (existingNextProg[0].status === "locked") {
             await conn.query(
               "UPDATE user_lesson_progress SET status = 'available' WHERE id = ?",
-              [existingNextProg[0].id]
+              [existingNextProg[0].id],
             );
           }
         }
@@ -227,7 +250,7 @@ export const quizRepository = {
       const today = getLocalDateString();
       await conn.query(
         "INSERT INTO user_study_activity (user_id, activity_date, activity_type, xp_earned) VALUES (?, ?, 'quiz_submit', ?)",
-        [userId, today, isPassed ? 50 : 20]
+        [userId, today, isPassed ? 50 : 20],
       );
 
       await conn.commit();
@@ -255,8 +278,8 @@ export const quizRepository = {
   async getQuizHistory(userId, quizId) {
     const pool = await getPool();
     const [rows] = await pool.query(
-      'SELECT id, score, total_questions, passing_score, is_passed, submitted_at FROM quiz_attempts WHERE user_id = ? AND quiz_id = ? ORDER BY submitted_at DESC',
-      [userId, quizId]
+      "SELECT id, score, total_questions, passing_score, is_passed, submitted_at FROM quiz_attempts WHERE user_id = ? AND quiz_id = ? ORDER BY submitted_at DESC",
+      [userId, quizId],
     );
     return rows;
   },
