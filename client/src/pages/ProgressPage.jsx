@@ -56,7 +56,7 @@ export default function ProgressPage() {
     { activity_date: '2025-01-04', activities_count: 6, daily_xp: 70 },
     { activity_date: '2025-01-05', activities_count: 7, daily_xp: 85 },
   ]).map((item) => ({
-    date: item.activity_date.substring(5), // MM-DD
+    date: item.activity_date.substring(5), 
     xp: item.daily_xp || item.activities_count * 10,
   }));
 

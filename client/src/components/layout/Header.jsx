@@ -96,7 +96,6 @@ export default function Header() {
                 className="w-10 h-10 rounded-full border-2 border-primary-200 p-0.5 overflow-hidden hover:ring-2 hover:ring-primary-400 transition-all focus:outline-none"
               >
                 <img
-                  src={user?.avatar_url || 'https://api.dicebear.com/7.x/bottts/svg?seed=Nihongo'}
                   alt={user?.full_name || 'User'}
                   className="w-full h-full rounded-full object-cover bg-primary-50"
                 />
